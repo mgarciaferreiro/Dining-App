@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1215FBA2156A9EA003BB831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1215FB92156A9EA003BB831 /* AppDelegate.swift */; };
+		C1215FBC2156A9EA003BB831 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1215FBB2156A9EA003BB831 /* ViewController.swift */; };
+		C1215FBF2156A9EA003BB831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1215FBD2156A9EA003BB831 /* Main.storyboard */; };
+		C1215FC12156A9EA003BB831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1215FC02156A9EA003BB831 /* Assets.xcassets */; };
+		C1215FC42156A9EA003BB831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1215FC22156A9EA003BB831 /* LaunchScreen.storyboard */; };
+		C1215FCF2156A9EA003BB831 /* Penn_Dining_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1215FCE2156A9EA003BB831 /* Penn_Dining_AppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1215FCB2156A9EA003BB831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1215FAE2156A9E9003BB831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1215FB52156A9E9003BB831;
+			remoteInfo = "Penn Dining App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1215FB62156A9EA003BB831 /* Penn Dining App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Penn Dining App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1215FB92156A9EA003BB831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1215FBB2156A9EA003BB831 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1215FBE2156A9EA003BB831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1215FC02156A9EA003BB831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1215FC32156A9EA003BB831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1215FC52156A9EA003BB831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1215FCA2156A9EA003BB831 /* Penn Dining AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Penn Dining AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1215FCE2156A9EA003BB831 /* Penn_Dining_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Penn_Dining_AppTests.swift; sourceTree = "<group>"; };
+		C1215FD02156A9EA003BB831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1215FB32156A9E9003BB831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1215FC72156A9EA003BB831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1215FAD2156A9E9003BB831 = {
+			isa = PBXGroup;
+			children = (
+				C1215FB82156A9EA003BB831 /* Penn Dining App */,
+				C1215FCD2156A9EA003BB831 /* Penn Dining AppTests */,
+				C1215FB72156A9EA003BB831 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1215FB72156A9EA003BB831 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1215FB62156A9EA003BB831 /* Penn Dining App.app */,
+				C1215FCA2156A9EA003BB831 /* Penn Dining AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1215FB82156A9EA003BB831 /* Penn Dining App */ = {
+			isa = PBXGroup;
+			children = (
+				C1215FB92156A9EA003BB831 /* AppDelegate.swift */,
+				C1215FBB2156A9EA003BB831 /* ViewController.swift */,
+				C1215FBD2156A9EA003BB831 /* Main.storyboard */,
+				C1215FC02156A9EA003BB831 /* Assets.xcassets */,
+				C1215FC22156A9EA003BB831 /* LaunchScreen.storyboard */,
+				C1215FC52156A9EA003BB831 /* Info.plist */,
+			);
+			path = "Penn Dining App";
+			sourceTree = "<group>";
+		};
+		C1215FCD2156A9EA003BB831 /* Penn Dining AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1215FCE2156A9EA003BB831 /* Penn_Dining_AppTests.swift */,
+				C1215FD02156A9EA003BB831 /* Info.plist */,
+			);
+			path = "Penn Dining AppTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1215FB52156A9E9003BB831 /* Penn Dining App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1215FD32156A9EA003BB831 /* Build configuration list for PBXNativeTarget "Penn Dining App" */;
+			buildPhases = (
+				C1215FB22156A9E9003BB831 /* Sources */,
+				C1215FB32156A9E9003BB831 /* Frameworks */,
+				C1215FB42156A9E9003BB831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Penn Dining App";
+			productName = "Penn Dining App";
+			productReference = C1215FB62156A9EA003BB831 /* Penn Dining App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1215FC92156A9EA003BB831 /* Penn Dining AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1215FD62156A9EA003BB831 /* Build configuration list for PBXNativeTarget "Penn Dining AppTests" */;
+			buildPhases = (
+				C1215FC62156A9EA003BB831 /* Sources */,
+				C1215FC72156A9EA003BB831 /* Frameworks */,
+				C1215FC82156A9EA003BB831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1215FCC2156A9EA003BB831 /* PBXTargetDependency */,
+			);
+			name = "Penn Dining AppTests";
+			productName = "Penn Dining AppTests";
+			productReference = C1215FCA2156A9EA003BB831 /* Penn Dining AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1215FAE2156A9E9003BB831 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Marta García Ferreiro";
+				TargetAttributes = {
+					C1215FB52156A9E9003BB831 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C1215FC92156A9EA003BB831 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C1215FB52156A9E9003BB831;
+					};
+				};
+			};
+			buildConfigurationList = C1215FB12156A9E9003BB831 /* Build configuration list for PBXProject "Penn Dining App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1215FAD2156A9E9003BB831;
+			productRefGroup = C1215FB72156A9EA003BB831 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1215FB52156A9E9003BB831 /* Penn Dining App */,
+				C1215FC92156A9EA003BB831 /* Penn Dining AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1215FB42156A9E9003BB831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1215FC42156A9EA003BB831 /* LaunchScreen.storyboard in Resources */,
+				C1215FC12156A9EA003BB831 /* Assets.xcassets in Resources */,
+				C1215FBF2156A9EA003BB831 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1215FC82156A9EA003BB831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1215FB22156A9E9003BB831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1215FBC2156A9EA003BB831 /* ViewController.swift in Sources */,
+				C1215FBA2156A9EA003BB831 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1215FC62156A9EA003BB831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1215FCF2156A9EA003BB831 /* Penn_Dining_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1215FCC2156A9EA003BB831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1215FB52156A9E9003BB831 /* Penn Dining App */;
+			targetProxy = C1215FCB2156A9EA003BB831 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1215FBD2156A9EA003BB831 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1215FBE2156A9EA003BB831 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1215FC22156A9EA003BB831 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1215FC32156A9EA003BB831 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1215FD12156A9EA003BB831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1215FD22156A9EA003BB831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1215FD42156A9EA003BB831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22QV2YRGYA;
+				INFOPLIST_FILE = "Penn Dining App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "m.Penn-Dining-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1215FD52156A9EA003BB831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22QV2YRGYA;
+				INFOPLIST_FILE = "Penn Dining App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "m.Penn-Dining-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1215FD72156A9EA003BB831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22QV2YRGYA;
+				INFOPLIST_FILE = "Penn Dining AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "m.Penn-Dining-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penn Dining App.app/Penn Dining App";
+			};
+			name = Debug;
+		};
+		C1215FD82156A9EA003BB831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22QV2YRGYA;
+				INFOPLIST_FILE = "Penn Dining AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "m.Penn-Dining-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penn Dining App.app/Penn Dining App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1215FB12156A9E9003BB831 /* Build configuration list for PBXProject "Penn Dining App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1215FD12156A9EA003BB831 /* Debug */,
+				C1215FD22156A9EA003BB831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1215FD32156A9EA003BB831 /* Build configuration list for PBXNativeTarget "Penn Dining App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1215FD42156A9EA003BB831 /* Debug */,
+				C1215FD52156A9EA003BB831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1215FD62156A9EA003BB831 /* Build configuration list for PBXNativeTarget "Penn Dining AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1215FD72156A9EA003BB831 /* Debug */,
+				C1215FD82156A9EA003BB831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1215FAE2156A9E9003BB831 /* Project object */;
+}
