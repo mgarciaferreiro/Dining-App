@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C1215FBA2156A9EA003BB831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1215FB92156A9EA003BB831 /* AppDelegate.swift */; };
-		C1215FBC2156A9EA003BB831 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1215FBB2156A9EA003BB831 /* ViewController.swift */; };
 		C1215FBF2156A9EA003BB831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1215FBD2156A9EA003BB831 /* Main.storyboard */; };
 		C1215FC12156A9EA003BB831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1215FC02156A9EA003BB831 /* Assets.xcassets */; };
 		C1215FC42156A9EA003BB831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1215FC22156A9EA003BB831 /* LaunchScreen.storyboard */; };
 		C1215FCF2156A9EA003BB831 /* Penn_Dining_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1215FCE2156A9EA003BB831 /* Penn_Dining_AppTests.swift */; };
+		C1215FDA2156AE21003BB831 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1215FD92156AE21003BB831 /* TableViewCell.swift */; };
+		C1215FDC2156B414003BB831 /* DiningLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1215FDB2156B414003BB831 /* DiningLocation.swift */; };
+		C1215FDE2156B760003BB831 /* DiningLocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1215FDD2156B760003BB831 /* DiningLocationTableViewController.swift */; };
+		C1215FE62156C95F003BB831 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1215FE52156C95F003BB831 /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +31,6 @@
 /* Begin PBXFileReference section */
 		C1215FB62156A9EA003BB831 /* Penn Dining App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Penn Dining App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1215FB92156A9EA003BB831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1215FBB2156A9EA003BB831 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C1215FBE2156A9EA003BB831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1215FC02156A9EA003BB831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1215FC32156A9EA003BB831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +38,10 @@
 		C1215FCA2156A9EA003BB831 /* Penn Dining AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Penn Dining AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1215FCE2156A9EA003BB831 /* Penn_Dining_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Penn_Dining_AppTests.swift; sourceTree = "<group>"; };
 		C1215FD02156A9EA003BB831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1215FD92156AE21003BB831 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C1215FDB2156B414003BB831 /* DiningLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningLocation.swift; sourceTree = "<group>"; };
+		C1215FDD2156B760003BB831 /* DiningLocationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningLocationTableViewController.swift; sourceTree = "<group>"; };
+		C1215FE52156C95F003BB831 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +84,11 @@
 			isa = PBXGroup;
 			children = (
 				C1215FB92156A9EA003BB831 /* AppDelegate.swift */,
-				C1215FBB2156A9EA003BB831 /* ViewController.swift */,
 				C1215FBD2156A9EA003BB831 /* Main.storyboard */,
+				C1215FE52156C95F003BB831 /* MenuViewController.swift */,
+				C1215FDD2156B760003BB831 /* DiningLocationTableViewController.swift */,
+				C1215FDB2156B414003BB831 /* DiningLocation.swift */,
+				C1215FD92156AE21003BB831 /* TableViewCell.swift */,
 				C1215FC02156A9EA003BB831 /* Assets.xcassets */,
 				C1215FC22156A9EA003BB831 /* LaunchScreen.storyboard */,
 				C1215FC52156A9EA003BB831 /* Info.plist */,
@@ -199,7 +208,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1215FBC2156A9EA003BB831 /* ViewController.swift in Sources */,
+				C1215FDA2156AE21003BB831 /* TableViewCell.swift in Sources */,
+				C1215FE62156C95F003BB831 /* MenuViewController.swift in Sources */,
+				C1215FDC2156B414003BB831 /* DiningLocation.swift in Sources */,
+				C1215FDE2156B760003BB831 /* DiningLocationTableViewController.swift in Sources */,
 				C1215FBA2156A9EA003BB831 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
